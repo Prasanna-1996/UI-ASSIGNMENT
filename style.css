@@ -1,0 +1,279 @@
+*{
+	margin:0px;
+  padding:0px;
+  font-family:'Times New Roman', Times, serif ;
+}
+nav{
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  display: inline-block;
+  line-height: 60px;
+}
+nav .website{
+  padding: 2rem;
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  }
+nav .navtop{
+  float: right;
+  margin-top:0.8px;
+  list-style: none;
+}
+nav .navtop li{
+  display: inline-block;
+}
+nav .navtop li a{
+  text-decoration: none;
+  padding:0.5rem;
+  margin-left: 15px;
+  color: #595959;
+}
+nav .navtop li a:hover{
+  transition: .4sec all ease-in-out;
+  color: #595959;
+}
+.image {
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 2px #595959, 0 0 4px #595959;
+    margin-bottom: -0.8rem;
+  }
+  .image-name {
+    position: absolute;
+    bottom: 100px;
+    padding-left: 50px;
+    width: 55%;
+   }
+  .image-name p{
+    font-size: medium;
+    font-weight: 400;
+  }
+.image2{
+  background-color: #e1e1d0;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 500;
+  color: #595959;
+  display: inline-flex;
+}
+.image2 h1{
+  display: block;
+  width: 25%;
+  margin: 25px;
+}
+.image2 .photoes{
+  display: block;
+  float: right;
+}
+.image2 .photoes img{
+  padding: 35px;
+  display: inline;
+}
+.image2 .photoes .imgl{
+  position: relative;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+.image2 .photoes .image-name1{
+  position: absolute;
+  height: 50px;
+  bottom: 65px;
+  background-color: #e1e1d0;
+  width: 60%;
+  padding-left: 50px;
+}
+.container{
+  display: inline-flex;
+}
+.image2 .photoes .image-name1 a{
+  color:#595959;
+  text-decoration: none;
+}
+.container1{
+  background-color: white;
+  height: 500;
+  color: #595959;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container1 .block{
+  width: 60% ;
+  padding: 30px;
+  display: block;
+  color: #595959;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container1 .block1{
+  width: 18%;
+  display: block;
+  margin: 30px;
+  padding: 30px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  float: left;
+  background-color: #ccccff;
+}
+.container2{
+  background-color:  #ffe6f9;
+  height: 600;
+  color: #595959;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container2 h2{
+  display: block;
+  margin-bottom: 4px;
+}
+.container2 .email{
+  width: 22%;
+  display: block;
+  margin: 35px;
+  padding: 35px;
+  background-color: white;
+  height: 100px;
+}
+.container2 .email a{
+  color: #595959;
+  display: block;
+  padding: 2px;
+  text-decoration: none;
+}
+.container2 .form{
+  width: 60%;
+  float: left;
+  margin: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container2 .form label{
+  color: #595959;
+  padding: 15px;
+}
+.container2 .form .label, .label1{
+  color: #595959;
+  padding-bottom: 5px;
+  float: left;
+  width: 50%;
+}
+.container2 .form input{
+  border: none;
+  background-color: white;
+  padding: 15px;
+  margin: 12px;
+  width: 320px;
+}
+.container2 .form textarea{
+  width: 98%;
+  background-color: white;
+  padding: 5px;
+  margin:10px;
+  height: 140px;
+  border: none;
+}
+.container2 .form button{
+  border: none;
+  background-color: #93b89c;
+  color: #004d00;
+  height: 40px;
+  width: 200px;
+ margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container2 .form button:hover{
+  background-color: #6e8f76;
+  color: #304635;
+}
+.footer{
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+}
+.footer h3{
+  color: #595959;
+  padding: 2rem;
+  font-size: 30px;
+}
+.footer .footer-icons{
+  display: block;
+  float: right;
+  margin-top: 20px;
+}
+.footer .footer-icons i{
+  padding: 10px;
+  color: #595959;
+  left:15px;
+}
+.footer2{
+  width: 100%;
+  color: #595959;
+  display: inline-block;
+}
+.footer2 .copy-right{
+  display: block;
+  padding: 2rem;
+}
+.footer2 .footer-bottom{
+  float: right;
+  display: block;
+  margin-top:-50px;
+ }
+.footer2 .footer-bottom a{
+  text-decoration: none;
+  color: #595959;
+  padding: 2rem;
+}
+@media screen and (min-width:1px) and (max-width:700px)
+{
+	nav .website{
+    text-align:left !important;
+    display: block;
+  }
+  nav .navtop li{
+    display:block;
+		padding:5px;
+    text-align: left;
+  }
+  .container1 .block1{
+    display: block;
+    width:70%;
+  }
+  .container2 .form .label, .label1{
+    color: #595959;
+    display:block;
+    padding-bottom: 5px;
+    float: left;
+    width: 70%;
+  }
+  .container2 .email{
+    display: block;
+    width: 30%;
+  }
+  .footer2 .footer-bottom {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  .footer2 .footer2 a{
+    padding: 10px;
+    text-align: left;
+  }
+}
+
+
+
